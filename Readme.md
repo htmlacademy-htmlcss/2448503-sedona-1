@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Doina Rusu](https://up.htmlacademy.ru/htmlcss-individual/1/user/2448503).
-* Наставник: `Неизвестно`.
+* Студент: [Doina Rusu][https://up.htmlacademy.ru/htmlcss-individual/1/user/2448503]
+* Наставник: [Andrey Grachev][https://htmlacademy.ru/profile/angra]
 
 ---
 
