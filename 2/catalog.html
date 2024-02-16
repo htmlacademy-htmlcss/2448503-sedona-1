@@ -125,23 +125,19 @@
         </form>
       </section>
 
-      <form action="#" method="get">
+      <catalog-filte>
         <fieldset>
           <legend>Стоимость, <span>₽</span></legend>
           <label>от<input type="text" value="0"></label>
           <label>до<input type="text" value="1000"></label>
         </fieldset>
 
-        <button type="button" name="popup-button">Применить</button>
-        <button type="button" name="popup-button">Сбросить</button>
+        <button type="submit" name="popup-button">Применить</button>
+        <button type="reset" name="popup-button">Сбросить</button>
+    </catalog-filte>
 
 
-
-        <button class="button newsletter-button" type="submit">
-          <span class="visually-hidden">Отправить</span>
-        </button>
-
-     <section class="footer-social">
+    <section class="footer-social">
         <h2 class="page-footer-title">Найдено гостиниц:38</h2>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала популярное</option>
@@ -156,7 +152,9 @@
         <a class="button" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-
+       <a class="button" href="#">
+        <span class="visually-hidden">Показать таблицы</span>
+       </a>
       </section>
 
       <ul class="product-card-list">
@@ -170,9 +168,6 @@
             <a class="product-card-button button" href="#">Подробнее</a>
             <a class="product-card-button button" href="#">В Избранное</a>
           </li>
-        </ul>
-
-          <ul class="product-card-list">
             <li class="product-card">
               <a class="product-card-link" href="product.html">
                 <img class="product-card-image" src="#" alt="">
@@ -183,10 +178,10 @@
               <a class="product-card-button button" href="#">Подробнее</a>
               <a class="product-card-button button" href="#">В Избранное</a>
             </li>
-           </ul>
 
-          <ul class="product-card-list">
-            <li class="product-card">
+
+
+             <li class="product-card">
                 <a class="product-card-link" href="product.html">
                   <img class="product-card-image" src="#" alt="">
                   <h3 class="product-card-title">Desert Quail Inn</h3>
@@ -196,9 +191,9 @@
                 <a class="product-card-button button" href="#">Подробнее</a>
                 <a class="product-card-button button" href="#">В Избранное</a>
               </li>
-            </ul>
 
-              <ul class="product-card-list">
+
+
                 <li class="product-card">
                   <a class="product-card-link" href="product.html">
                     <img class="product-card-image" src="#" alt="">
@@ -210,6 +205,7 @@
                   <a class="product-card-button button" href="#">В Избранное</a>
                 </li>
               </ul>
+
 
 
       <ul class="pagination">
@@ -241,15 +237,14 @@
           <label for="newsletter-email">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
             required>
-          <button class="button newsletter-button" type="submit">
-          </button>
+
+      <button class="button newsletter-button" type="submit">Подписаться</button>
         </form>
        </section>
 
       </main>
 
        <footer>
-      <span class="visually-hidden">Подписаться</span>
       <section class="footer social">
         <h2 class="page-footer-title">Контакты</h2>
         <ul class="footer-social-list">
